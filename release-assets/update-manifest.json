@@ -1,9 +1,9 @@
 {
     "schema":  1,
-    "version":  "2.6.0",
+    "version":  "2.6.1",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/BrokenArrowArtilleryOverlaySetup.exe",
-    "sha256":  "880c115866b2bd8774167d48cea724eae94bbeb3be80f64fdd0b772380ba785f",
-    "size_bytes":  20274427,
-    "published_at":  "2026-07-31T08:35:20.1401132Z",
-    "notes":  "Introduces the redesigned Counterfire interface and secure automatic updates, plus artillery identification, firing timers, marker history, map tools, display scaling, and Numpad controls."
+    "sha256":  "1ca72c2a8dc48063cfaa01a4d3486eeea2114c94a23a0330e983f37ac493a23d",
+    "size_bytes":  20964551,
+    "published_at":  "2026-07-31T08:56:53.9194288Z",
+    "notes":  "Adds a new detailed Counterfire icon with a gunmetal tactical panel, terrain contours, range accents, and machined red targeting geometry. The icon now appears consistently in the app window, executable, shortcuts, installer, and uninstall entry."
 }

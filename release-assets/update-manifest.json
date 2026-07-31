@@ -1,9 +1,9 @@
 {
     "schema":  1,
-    "version":  "2.7.1",
+    "version":  "2.7.2",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/BrokenArrowArtilleryOverlaySetup.exe",
-    "sha256":  "d254f121ce308162db33d5bab4ba6b566c53ae63567f672a48cabd612165b3f3",
-    "size_bytes":  20417895,
-    "published_at":  "2026-07-31T09:18:13.7408091Z",
-    "notes":  "Replaces the generated-looking icon with a clean, hand-authored vector mark and deterministic multi-resolution Windows icon. No application behavior or lobby data format changed."
+    "sha256":  "3be70c16fe466bd3e990e21115b354ac881485689b68a855af920ad989d3a196",
+    "size_bytes":  20421724,
+    "published_at":  "2026-07-31T09:31:32.4515095Z",
+    "notes":  "Improves five-player lobbies with restart-safe seat reclaiming, compact idle synchronization, clean disconnects for expired credentials, stricter shared-data validation, expanded lobby diagnostics, and complete Windows version metadata."
 }

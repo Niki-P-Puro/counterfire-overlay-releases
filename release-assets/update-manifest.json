@@ -1,9 +1,9 @@
 {
     "schema":  1,
-    "version":  "2.7.3",
+    "version":  "2.7.4",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/BrokenArrowArtilleryOverlaySetup.exe",
-    "sha256":  "11d2712ba02d68d5e4aead84571756cffaed03b609871ccf695b06db4289fadc",
-    "size_bytes":  20374152,
-    "published_at":  "2026-07-31T09:41:35.5411971Z",
-    "notes":  "Replaces the decorative icon with a flat, manually proportioned reticle mark and moves all four cardinal bars closer to the offset ring. Application and lobby behavior are unchanged."
+    "sha256":  "b9fb38b6be5dee5924254458da218c76b801c3c1cd8f1c6b57d099db89eb37eb",
+    "size_bytes":  20350132,
+    "published_at":  "2026-07-31T09:44:15.3587732Z",
+    "notes":  "Reworks the icon to match the supplied reference: four heavy outlined cardinal blocks around a thin broken circle on a matte black panel. Application and lobby behavior are unchanged."
 }

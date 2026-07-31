@@ -1,9 +1,9 @@
 {
     "schema":  1,
-    "version":  "2.6.1",
+    "version":  "2.7.0",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/BrokenArrowArtilleryOverlaySetup.exe",
-    "sha256":  "1ca72c2a8dc48063cfaa01a4d3486eeea2114c94a23a0330e983f37ac493a23d",
-    "size_bytes":  20964551,
-    "published_at":  "2026-07-31T08:56:53.9194288Z",
-    "notes":  "Adds a new detailed Counterfire icon with a gunmetal tactical panel, terrain contours, range accents, and machined red targeting geometry. The icon now appears consistently in the app window, executable, shortcuts, installer, and uninstall entry."
+    "sha256":  "5048084b83e12d9e40f138f01affe534faf6c4012b7e28a2fad7dd406f9a77fa",
+    "size_bytes":  21076489,
+    "published_at":  "2026-07-31T09:13:44.5780872Z",
+    "notes":  "Adds five-player direct-host lobbies with live participant presence, shared bearings and markers, host map following, and server-enforced observation ownership. Includes optional --host-lobby startup support for a repeatable team host."
 }

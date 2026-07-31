@@ -1,0 +1,43 @@
+name: Publish Counterfire release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out release files
+        uses: actions/checkout@v4
+
+      - name: Verify release manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          installer="release-assets/BrokenArrowArtilleryOverlaySetup.exe"
+          manifest="release-assets/update-manifest.json"
+          version="${GITHUB_REF_NAME#v}"
+          test -f "$installer"
+          test -f "$manifest"
+          test -f "release-assets/RELEASE_NOTES.md"
+          test "$(jq -r '.version' "$manifest")" = "$version"
+          test "$(jq -r '.size_bytes' "$manifest")" = "$(stat -c %s "$installer")"
+          test "$(jq -r '.sha256' "$manifest")" = "$(sha256sum "$installer" | cut -d' ' -f1)"
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release create "$GITHUB_REF_NAME" \
+            "release-assets/BrokenArrowArtilleryOverlaySetup.exe" \
+            "release-assets/update-manifest.json" \
+            --title "Counterfire ${GITHUB_REF_NAME#v}" \
+            --notes-file "release-assets/RELEASE_NOTES.md" \
+            --latest

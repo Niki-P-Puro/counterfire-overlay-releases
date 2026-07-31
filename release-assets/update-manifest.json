@@ -1,9 +1,9 @@
 {
     "schema":  1,
-    "version":  "2.7.0",
+    "version":  "2.7.1",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/BrokenArrowArtilleryOverlaySetup.exe",
-    "sha256":  "5048084b83e12d9e40f138f01affe534faf6c4012b7e28a2fad7dd406f9a77fa",
-    "size_bytes":  21076489,
-    "published_at":  "2026-07-31T09:13:44.5780872Z",
-    "notes":  "Adds five-player direct-host lobbies with live participant presence, shared bearings and markers, host map following, and server-enforced observation ownership. Includes optional --host-lobby startup support for a repeatable team host."
+    "sha256":  "d254f121ce308162db33d5bab4ba6b566c53ae63567f672a48cabd612165b3f3",
+    "size_bytes":  20417895,
+    "published_at":  "2026-07-31T09:18:13.7408091Z",
+    "notes":  "Replaces the generated-looking icon with a clean, hand-authored vector mark and deterministic multi-resolution Windows icon. No application behavior or lobby data format changed."
 }

@@ -1,6 +1,6 @@
-## Counterfire 2.7.0
+## Counterfire 2.7.1
 
-Adds five-player direct-host lobbies with live participant presence, shared bearings and markers, host map following, and server-enforced observation ownership. Includes optional --host-lobby startup support for a repeatable team host.
+Replaces the generated-looking icon with a clean, hand-authored vector mark and deterministic multi-resolution Windows icon. No application behavior or lobby data format changed.
 
 Counterfire is an external manual-input tool. It does not access Broken Arrow
 files, process memory, network traffic, or screen pixels.

@@ -1,9 +1,9 @@
 {
     "schema":  1,
-    "version":  "2.7.5",
+    "version":  "3.0.0",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/BrokenArrowArtilleryOverlaySetup.exe",
-    "sha256":  "e8e70f1f9286ec1a404ac81e640c8d63b66073c1989c575af68b799bf243b6f9",
-    "size_bytes":  20352872,
-    "published_at":  "2026-07-31T09:47:42.1897631Z",
-    "notes":  "Refines the reference-based icon with one consistent red across the entire mark and longer cardinal blocks that reach farther toward the circle center. Application and lobby behavior are unchanged."
+    "sha256":  "8fa0f7f0be7488aef002f1dc4aa1e97f7f241a02e6f293b09e87b7f821ff57e4",
+    "size_bytes":  26444272,
+    "published_at":  "2026-07-31T10:22:37.5514272Z",
+    "notes":  "Major reliability and teamwork update: dedicated five-player lobby hosting, host moderation and transfer, resilient reconnect/sync, safe startup recovery, rotating logs and support bundles, session migrations and rollback support, full observation undo/redo, duplicate merging and bulk controls, observation timeline, weighted triangulation, calibrated range rings, minimap zoom and drag-to-pan, safer map caching, optional timer alerts, accessible palettes, and multi-monitor layout repair."
 }

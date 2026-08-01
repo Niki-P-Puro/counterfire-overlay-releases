@@ -1,9 +1,10 @@
 {
     "schema":  1,
-    "version":  "3.2.9",
+    "version":  "3.3.0",
+    "server_url":  "https://nps-server-1.tailcedb0f.ts.net",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-    "sha256":  "e9efb2a3e43c2ba027cb02cf373ad9b847b28af431f161c34454a52ba9564005",
-    "size_bytes":  26484210,
-    "published_at":  "2026-08-01T15:35:58.5546161Z",
-    "notes":  "Moves multiplayer to the persistent Tailscale Funnel endpoint, automatically migrates the retired temporary tunnel address, and retains protocol 3 compatibility."
+    "sha256":  "c10e76072d54506d28d06c9964a49eae9cf3ce2b316f7ddb5ed9e687479fb01f",
+    "size_bytes":  26493591,
+    "published_at":  "2026-08-01T15:50:50.6853628Z",
+    "notes":  "Improves multiplayer usability with automatic server discovery, online health checks, clearer connection errors, bounded reconnect backoff, duplicate-action protection, Advanced-only server overrides, code copying, host handoff prompts, network timing details, and sanitized diagnostics export."
 }

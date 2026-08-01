@@ -1,6 +1,6 @@
-## Counterfire 3.2.9
+## Counterfire 3.3.0
 
-Moves multiplayer to the persistent Tailscale Funnel endpoint, automatically migrates the retired temporary tunnel address, and retains protocol 3 compatibility.
+Improves multiplayer usability with automatic server discovery, online health checks, clearer connection errors, bounded reconnect backoff, duplicate-action protection, Advanced-only server overrides, code copying, host handoff prompts, network timing details, and sanitized diagnostics export.
 
 Counterfire is an external manual-input tool. It does not access Broken Arrow
 files, process memory, network traffic, or screen pixels.

@@ -1,9 +1,9 @@
 {
     "schema":  1,
-    "version":  "3.0.0",
-    "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/BrokenArrowArtilleryOverlaySetup.exe",
-    "sha256":  "8fa0f7f0be7488aef002f1dc4aa1e97f7f241a02e6f293b09e87b7f821ff57e4",
-    "size_bytes":  26444272,
-    "published_at":  "2026-07-31T10:22:37.5514272Z",
-    "notes":  "Major reliability and teamwork update: dedicated five-player lobby hosting, host moderation and transfer, resilient reconnect/sync, safe startup recovery, rotating logs and support bundles, session migrations and rollback support, full observation undo/redo, duplicate merging and bulk controls, observation timeline, weighted triangulation, calibrated range rings, minimap zoom and drag-to-pan, safer map caching, optional timer alerts, accessible palettes, and multi-monitor layout repair."
+    "version":  "3.2.0",
+    "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
+    "sha256":  "2fd93fc0c28d947f5093ed839c3b78433728f0371651e2a5bb360aadd75a5509",
+    "size_bytes":  26473401,
+    "published_at":  "2026-08-01T03:20:03.5433569Z",
+    "notes":  "Renamed CounterfireBA application branding and installer, added server-authoritative identity persistence and complete name history, hardened durable bridge storage, and improved multiplayer reliability for the Counterfire 3.2 backend."
 }

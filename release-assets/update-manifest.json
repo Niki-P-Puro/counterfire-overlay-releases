@@ -1,10 +1,10 @@
 {
     "schema":  1,
-    "version":  "3.3.3",
+    "version":  "3.3.4",
     "server_url":  "https://nps-server-1.tailcedb0f.ts.net",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-    "sha256":  "57762ba9bc29aabc6b52a1999be179810c6c06117070cc2ccae1154b5e38327e",
-    "size_bytes":  26499055,
-    "published_at":  "2026-08-01T16:19:17.0668871Z",
-    "notes":  "Bearing lines and uncertainty cones are now strictly clipped to the visible minimap and overlay bounds, including while zoomed or panned. Right-click an owned bearing to edit its battery and uncertainty or delete it; teammate bearings remain read-only. Lobby invitation codes are now six-character alphanumeric codes with a guaranteed letter, case-insensitive entry, and compatibility with existing numeric rooms."
+    "sha256":  "222f413b435a56ed51a3e0f96e655454e70d601b43f8ee609988ae5ec6a0b8ea",
+    "size_bytes":  26498940,
+    "published_at":  "2026-08-01T16:29:50.4597483Z",
+    "notes":  "Minimap panning now uses a bounded preprocessed render cache and fast drag-only resampling, then restores full Lanczos quality when released. Sustained local benchmarks measured about 61 FPS on cached maps and 58 FPS with a 4096 x 4096 source."
 }

@@ -1,6 +1,6 @@
-## Counterfire 3.3.3
+## Counterfire 3.3.4
 
-Bearing lines and uncertainty cones are now strictly clipped to the visible minimap and overlay bounds, including while zoomed or panned. Right-click an owned bearing to edit its battery and uncertainty or delete it; teammate bearings remain read-only. Lobby invitation codes are now six-character alphanumeric codes with a guaranteed letter, case-insensitive entry, and compatibility with existing numeric rooms.
+Minimap panning now uses a bounded preprocessed render cache and fast drag-only resampling, then restores full Lanczos quality when released. Sustained local benchmarks measured about 61 FPS on cached maps and 58 FPS with a 4096 x 4096 source.
 
 Counterfire is an external manual-input tool. It does not access Broken Arrow
 files, process memory, network traffic, or screen pixels.

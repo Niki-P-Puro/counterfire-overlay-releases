@@ -1,10 +1,10 @@
 {
     "schema":  1,
-    "version":  "3.4.1",
+    "version":  "3.4.2",
     "server_url":  "https://nps-server-1.tailcedb0f.ts.net",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-    "sha256":  "7d165b1bb63adcc09a39c8e12dbdb561d82776475ed0e5f3dfc9bbc7adbc9537",
-    "size_bytes":  26499607,
-    "published_at":  "2026-08-01T16:54:09.4865564Z",
-    "notes":  "Checks for updates automatically at startup and again during normal exit. Exit checks use a short network timeout and a five-second fallback; available updates can be reviewed, skipped, or canceled without trapping shutdown. Updater-driven restarts bypass the exit check."
+    "sha256":  "3cfeeaae5c201ad11944901287946b61e35a52e944dfb328c6d4c16af87fd208",
+    "size_bytes":  27076941,
+    "published_at":  "2026-08-01T17:18:41.7322493Z",
+    "notes":  "Introduces a refined Counterfire icon with a downward-looking helmeted artillery observer, fire-control trajectory, range ticks, and improved small-size legibility. The executable, installer, shortcuts, and GitHub project art now share the same mark."
 }

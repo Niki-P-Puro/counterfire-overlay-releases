@@ -1,6 +1,6 @@
-## Counterfire 3.4.1
+## Counterfire 3.4.2
 
-Checks for updates automatically at startup and again during normal exit. Exit checks use a short network timeout and a five-second fallback; available updates can be reviewed, skipped, or canceled without trapping shutdown. Updater-driven restarts bypass the exit check.
+Introduces a refined Counterfire icon with a downward-looking helmeted artillery observer, fire-control trajectory, range ticks, and improved small-size legibility. The executable, installer, shortcuts, and GitHub project art now share the same mark.
 
 Counterfire is an external manual-input tool. It does not access Broken Arrow
 files, process memory, network traffic, or screen pixels.

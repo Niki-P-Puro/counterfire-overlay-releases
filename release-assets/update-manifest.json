@@ -1,9 +1,9 @@
 {
     "schema":  1,
-    "version":  "3.2.5",
+    "version":  "3.2.6",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-    "sha256":  "17d2cae4f2c470cb7e937fd0fc1895404d172d83f818ddec43c145cb64c11bce",
-    "size_bytes":  26478466,
-    "published_at":  "2026-08-01T04:19:28.5785170Z",
-    "notes":  "Adds verified full-map dimensions for all 20 Broken Arrow maps. New and previously uncalibrated map views now receive automatic meter calibration for distance measurements and range rings, while existing nonzero manual calibrations remain unchanged."
+    "sha256":  "1bf14ff2fca29afeed0037a315b1db61a93c794ca9fa1fe91127a3315d630259",
+    "size_bytes":  26484926,
+    "published_at":  "2026-08-01T04:38:51.0261720Z",
+    "notes":  "Adds four selectable map modes: 4096-pixel Detailed Satellite, Tactical Minimap, Cartographic, and Classic. Detailed maps download lazily per selected map, cache locally, and use strict HTTPS host, size, format, and image validation. Counterfire never modifies game files."
 }

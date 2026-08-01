@@ -1,6 +1,6 @@
-## Counterfire 3.3.2
+## Counterfire 3.3.3
 
-Fixes the post-update python313.dll failure when upgrading from older versions by resetting inherited PyInstaller runtime state inside both the updater handoff and the installer before silent relaunch.
+Bearing lines and uncertainty cones are now strictly clipped to the visible minimap and overlay bounds, including while zoomed or panned. Right-click an owned bearing to edit its battery and uncertainty or delete it; teammate bearings remain read-only. Lobby invitation codes are now six-character alphanumeric codes with a guaranteed letter, case-insensitive entry, and compatibility with existing numeric rooms.
 
 Counterfire is an external manual-input tool. It does not access Broken Arrow
 files, process memory, network traffic, or screen pixels.

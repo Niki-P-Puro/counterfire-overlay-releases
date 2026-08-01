@@ -1,10 +1,10 @@
 {
     "schema":  1,
-    "version":  "3.3.2",
+    "version":  "3.3.3",
     "server_url":  "https://nps-server-1.tailcedb0f.ts.net",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-    "sha256":  "12b298ce0bab289ed1bfa342d983cb01916941d22d68402780aa3f5031ca74c4",
-    "size_bytes":  26492963,
-    "published_at":  "2026-08-01T16:06:32.5185521Z",
-    "notes":  "Fixes the post-update python313.dll failure when upgrading from older versions by resetting inherited PyInstaller runtime state inside both the updater handoff and the installer before silent relaunch."
+    "sha256":  "57762ba9bc29aabc6b52a1999be179810c6c06117070cc2ccae1154b5e38327e",
+    "size_bytes":  26499055,
+    "published_at":  "2026-08-01T16:19:17.0668871Z",
+    "notes":  "Bearing lines and uncertainty cones are now strictly clipped to the visible minimap and overlay bounds, including while zoomed or panned. Right-click an owned bearing to edit its battery and uncertainty or delete it; teammate bearings remain read-only. Lobby invitation codes are now six-character alphanumeric codes with a guaranteed letter, case-insensitive entry, and compatibility with existing numeric rooms."
 }

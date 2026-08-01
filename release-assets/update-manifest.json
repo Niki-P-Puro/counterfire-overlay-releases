@@ -1,10 +1,10 @@
 {
     "schema":  1,
-    "version":  "3.3.1",
+    "version":  "3.3.2",
     "server_url":  "https://nps-server-1.tailcedb0f.ts.net",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-    "sha256":  "ab3b2599653edcfec40b5b144508c2d6591ca10adf242e8531e17ada8e80dbdf",
-    "size_bytes":  26493145,
-    "published_at":  "2026-08-01T16:02:04.5713319Z",
-    "notes":  "Fixes the post-update python313.dll launch failure by clearing inherited PyInstaller runtime state, waiting for installation to finish, restarting one clean Counterfire process, and removing a duplicate interactive launch entry."
+    "sha256":  "12b298ce0bab289ed1bfa342d983cb01916941d22d68402780aa3f5031ca74c4",
+    "size_bytes":  26492963,
+    "published_at":  "2026-08-01T16:06:32.5185521Z",
+    "notes":  "Fixes the post-update python313.dll failure when upgrading from older versions by resetting inherited PyInstaller runtime state inside both the updater handoff and the installer before silent relaunch."
 }

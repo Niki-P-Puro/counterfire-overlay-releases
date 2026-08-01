@@ -1,9 +1,9 @@
 {
     "schema":  1,
-    "version":  "3.2.4",
+    "version":  "3.2.5",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-    "sha256":  "8103af8f1df2c1fdd5288ce54c21965446b9b7c7c323534232f59ae9e9c76d13",
-    "size_bytes":  26478011,
-    "published_at":  "2026-08-01T04:08:35.1707470Z",
-    "notes":  "Fixes Windows update error 5 caused by a lingering one-file launcher process. The updater now waits for every Counterfire process using the installed executable, handles stale locks with a bounded fallback, and includes the dedicated lobby host in replacement lock handling."
+    "sha256":  "17d2cae4f2c470cb7e937fd0fc1895404d172d83f818ddec43c145cb64c11bce",
+    "size_bytes":  26478466,
+    "published_at":  "2026-08-01T04:19:28.5785170Z",
+    "notes":  "Adds verified full-map dimensions for all 20 Broken Arrow maps. New and previously uncalibrated map views now receive automatic meter calibration for distance measurements and range rings, while existing nonzero manual calibrations remain unchanged."
 }

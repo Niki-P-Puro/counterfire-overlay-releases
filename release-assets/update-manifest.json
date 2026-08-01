@@ -1,9 +1,9 @@
 {
     "schema":  1,
-    "version":  "3.2.7",
+    "version":  "3.2.8",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-    "sha256":  "ca4d9e39b049ad9d41a5915349667984e59eb20633feb863b6fe1b576918ea06",
-    "size_bytes":  26480928,
-    "published_at":  "2026-08-01T04:52:40.4386889Z",
-    "notes":  "Adds an optional Settings \u003e Recovery control to suppress the unclean-exit startup notice while retaining safe-start layout repair and session protection. Includes the four selectable map modes from 3.2.6: 4096-pixel Detailed Satellite, Tactical Minimap, Cartographic, and Classic, with lazy validated caching and no game-file modification."
+    "sha256":  "3ea35995c0735e1136e4d72ad2f15675de882c1735d7b52fb910ac4b2b15e291",
+    "size_bytes":  26487012,
+    "published_at":  "2026-08-01T15:17:05.4256859Z",
+    "notes":  "Adds immediate online multiplayer access through the current Counterfire HTTPS relay, upgrades the default server configuration, and preserves custom server addresses."
 }

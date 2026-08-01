@@ -1,6 +1,6 @@
-## Counterfire 3.2.7
+## Counterfire 3.2.8
 
-Adds an optional Settings > Recovery control to suppress the unclean-exit startup notice while retaining safe-start layout repair and session protection. Includes the four selectable map modes from 3.2.6: 4096-pixel Detailed Satellite, Tactical Minimap, Cartographic, and Classic, with lazy validated caching and no game-file modification.
+Adds immediate online multiplayer access through the current Counterfire HTTPS relay, upgrades the default server configuration, and preserves custom server addresses.
 
 Counterfire is an external manual-input tool. It does not access Broken Arrow
 files, process memory, network traffic, or screen pixels.

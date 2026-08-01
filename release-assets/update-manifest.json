@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "version": "3.4.4",
+  "version": "3.4.5",
   "server_url": "https://nps-server-1.tailcedb0f.ts.net",
   "installer_url": "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-  "sha256": "68ebdd8f6d52569dfb5dc2ce1d97e046cc5b12b5423428339431544150eaa70d",
-  "size_bytes": 30646899,
-  "published_at": "2026-08-01T19:57:51.1415902Z",
-  "notes": "Security hardening: signed update manifests, DPAPI-protected resume credentials, automatic failed-update rollback, and expanded authorization tests.",
+  "sha256": "aada2b811bdfdb0f71d1d81c1174ae51cecc66d4620896dd032a720492791d8b",
+  "size_bytes": 30653029,
+  "published_at": "2026-08-01T20:49:55.7811184Z",
+  "notes": "Redesigned bearing lines with blue origins, red endpoints, uncertainty-defined side rails, green arc caps, movable bearing handles, overlap-aware right-click actions, ring-circumference selection, and reliable edit-dialog deletion.",
   "signature_algorithm": "ed25519",
-  "signature": "G9DFC48OVUFSzIa3uqjkS43AEU1zO+BHDRYnB8BicdWpjmC9FkKsvcoCRoYuPN4z6GbkIWVjJKitnjU3T+aICw=="
+  "signature": "nIuSz8qwqGR2x6ZzmTnnxGkC6zJvThuUrrIR3xySELPc7cm/4s4caieiJmRnOlTmeO4QQU0YPOWdebqiriUMBA=="
 }

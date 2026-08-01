@@ -1,9 +1,9 @@
 {
     "schema":  1,
-    "version":  "3.2.1",
+    "version":  "3.2.2",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-    "sha256":  "bbf1dc08968c200154a840bc4f03bd0d5087b094e84695ce4851bf6c9babc6b8",
-    "size_bytes":  26475726,
-    "published_at":  "2026-08-01T03:42:50.8393712Z",
-    "notes":  "Adds a calibrated drag-to-size range ring tool. Rings synchronize in multiplayer, retain creator ownership, can be moved and edited, respect the range-ring visibility setting, and support an optional user-assigned hotkey."
+    "sha256":  "fcd7eeb1051d71a6f269b9423fd07521e39b693ae2cd11b2c90b3de5ada39f7a",
+    "size_bytes":  26474905,
+    "published_at":  "2026-08-01T03:48:29.0179952Z",
+    "notes":  "Adds right-click marker actions directly on the minimap. Owners can edit or delete their markers from a compact context menu, while teammates markers remain read-only. Context menus are positioned correctly across multiple displays."
 }

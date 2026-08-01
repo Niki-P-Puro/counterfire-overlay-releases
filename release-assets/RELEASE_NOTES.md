@@ -1,6 +1,6 @@
-## Counterfire 3.2.1
+## Counterfire 3.2.2
 
-Adds a calibrated drag-to-size range ring tool. Rings synchronize in multiplayer, retain creator ownership, can be moved and edited, respect the range-ring visibility setting, and support an optional user-assigned hotkey.
+Adds right-click marker actions directly on the minimap. Owners can edit or delete their markers from a compact context menu, while teammates markers remain read-only. Context menus are positioned correctly across multiple displays.
 
 Counterfire is an external manual-input tool. It does not access Broken Arrow
 files, process memory, network traffic, or screen pixels.

@@ -1,6 +1,6 @@
-## Counterfire 3.2.2
+## Counterfire 3.2.3
 
-Adds right-click marker actions directly on the minimap. Owners can edit or delete their markers from a compact context menu, while teammates markers remain read-only. Context menus are positioned correctly across multiple displays.
+Counterfire updates now complete automatically. After verification, the app saves state and exits cleanly; a detached handoff waits for shutdown, silently replaces the installed files, and relaunches the updated Counterfire version.
 
 Counterfire is an external manual-input tool. It does not access Broken Arrow
 files, process memory, network traffic, or screen pixels.

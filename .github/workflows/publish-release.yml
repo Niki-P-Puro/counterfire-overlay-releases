@@ -19,7 +19,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          installer="release-assets/BrokenArrowArtilleryOverlaySetup.exe"
+          installer="release-assets/CounterfireBAINSTALLER.exe"
           manifest="release-assets/update-manifest.json"
           version="${GITHUB_REF_NAME#v}"
           test -f "$installer"
@@ -36,7 +36,7 @@ jobs:
         run: |
           set -euo pipefail
           gh release create "$GITHUB_REF_NAME" \
-            "release-assets/BrokenArrowArtilleryOverlaySetup.exe" \
+            "release-assets/CounterfireBAINSTALLER.exe" \
             "release-assets/update-manifest.json" \
             --title "Counterfire ${GITHUB_REF_NAME#v}" \
             --notes-file "release-assets/RELEASE_NOTES.md" \

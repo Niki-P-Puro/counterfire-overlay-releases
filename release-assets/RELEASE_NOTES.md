@@ -1,6 +1,6 @@
-## Counterfire 3.3.0
+## Counterfire 3.3.1
 
-Improves multiplayer usability with automatic server discovery, online health checks, clearer connection errors, bounded reconnect backoff, duplicate-action protection, Advanced-only server overrides, code copying, host handoff prompts, network timing details, and sanitized diagnostics export.
+Fixes the post-update python313.dll launch failure by clearing inherited PyInstaller runtime state, waiting for installation to finish, restarting one clean Counterfire process, and removing a duplicate interactive launch entry.
 
 Counterfire is an external manual-input tool. It does not access Broken Arrow
 files, process memory, network traffic, or screen pixels.

@@ -1,10 +1,10 @@
 {
     "schema":  1,
-    "version":  "3.3.0",
+    "version":  "3.3.1",
     "server_url":  "https://nps-server-1.tailcedb0f.ts.net",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-    "sha256":  "c10e76072d54506d28d06c9964a49eae9cf3ce2b316f7ddb5ed9e687479fb01f",
-    "size_bytes":  26493591,
-    "published_at":  "2026-08-01T15:50:50.6853628Z",
-    "notes":  "Improves multiplayer usability with automatic server discovery, online health checks, clearer connection errors, bounded reconnect backoff, duplicate-action protection, Advanced-only server overrides, code copying, host handoff prompts, network timing details, and sanitized diagnostics export."
+    "sha256":  "ab3b2599653edcfec40b5b144508c2d6591ca10adf242e8531e17ada8e80dbdf",
+    "size_bytes":  26493145,
+    "published_at":  "2026-08-01T16:02:04.5713319Z",
+    "notes":  "Fixes the post-update python313.dll launch failure by clearing inherited PyInstaller runtime state, waiting for installation to finish, restarting one clean Counterfire process, and removing a duplicate interactive launch entry."
 }

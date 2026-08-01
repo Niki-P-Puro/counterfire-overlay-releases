@@ -1,9 +1,9 @@
 {
     "schema":  1,
-    "version":  "3.2.3",
+    "version":  "3.2.4",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-    "sha256":  "386a23f846b09e8ed62fd925c66d1560290bf241ffbeeccc2447d5236e7f2c78",
-    "size_bytes":  26474111,
-    "published_at":  "2026-08-01T03:56:51.6886100Z",
-    "notes":  "Counterfire updates now complete automatically. After verification, the app saves state and exits cleanly; a detached handoff waits for shutdown, silently replaces the installed files, and relaunches the updated Counterfire version."
+    "sha256":  "8103af8f1df2c1fdd5288ce54c21965446b9b7c7c323534232f59ae9e9c76d13",
+    "size_bytes":  26478011,
+    "published_at":  "2026-08-01T04:08:35.1707470Z",
+    "notes":  "Fixes Windows update error 5 caused by a lingering one-file launcher process. The updater now waits for every Counterfire process using the installed executable, handles stale locks with a bounded fallback, and includes the dedicated lobby host in replacement lock handling."
 }

@@ -1,6 +1,6 @@
-## Counterfire 3.2.3
+## Counterfire 3.2.4
 
-Counterfire updates now complete automatically. After verification, the app saves state and exits cleanly; a detached handoff waits for shutdown, silently replaces the installed files, and relaunches the updated Counterfire version.
+Fixes Windows update error 5 caused by a lingering one-file launcher process. The updater now waits for every Counterfire process using the installed executable, handles stale locks with a bounded fallback, and includes the dedicated lobby host in replacement lock handling.
 
 Counterfire is an external manual-input tool. It does not access Broken Arrow
 files, process memory, network traffic, or screen pixels.

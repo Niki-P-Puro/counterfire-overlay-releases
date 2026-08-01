@@ -1,6 +1,6 @@
-## Counterfire 3.2.8
+## Counterfire 3.2.9
 
-Adds immediate online multiplayer access through the current Counterfire HTTPS relay, upgrades the default server configuration, and preserves custom server addresses.
+Moves multiplayer to the persistent Tailscale Funnel endpoint, automatically migrates the retired temporary tunnel address, and retains protocol 3 compatibility.
 
 Counterfire is an external manual-input tool. It does not access Broken Arrow
 files, process memory, network traffic, or screen pixels.

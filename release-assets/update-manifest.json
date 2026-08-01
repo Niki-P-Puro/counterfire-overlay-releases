@@ -1,9 +1,9 @@
 {
     "schema":  1,
-    "version":  "3.2.8",
+    "version":  "3.2.9",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-    "sha256":  "3ea35995c0735e1136e4d72ad2f15675de882c1735d7b52fb910ac4b2b15e291",
-    "size_bytes":  26487012,
-    "published_at":  "2026-08-01T15:17:05.4256859Z",
-    "notes":  "Adds immediate online multiplayer access through the current Counterfire HTTPS relay, upgrades the default server configuration, and preserves custom server addresses."
+    "sha256":  "e9efb2a3e43c2ba027cb02cf373ad9b847b28af431f161c34454a52ba9564005",
+    "size_bytes":  26484210,
+    "published_at":  "2026-08-01T15:35:58.5546161Z",
+    "notes":  "Moves multiplayer to the persistent Tailscale Funnel endpoint, automatically migrates the retired temporary tunnel address, and retains protocol 3 compatibility."
 }

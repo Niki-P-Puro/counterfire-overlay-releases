@@ -1,10 +1,10 @@
 {
     "schema":  1,
-    "version":  "3.4.2",
+    "version":  "3.4.3",
     "server_url":  "https://nps-server-1.tailcedb0f.ts.net",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-    "sha256":  "3cfeeaae5c201ad11944901287946b61e35a52e944dfb328c6d4c16af87fd208",
-    "size_bytes":  27076941,
-    "published_at":  "2026-08-01T17:18:41.7322493Z",
-    "notes":  "Introduces a refined Counterfire icon with a downward-looking helmeted artillery observer, fire-control trajectory, range ticks, and improved small-size legibility. The executable, installer, shortcuts, and GitHub project art now share the same mark."
+    "sha256":  "2fd1477cd0f2632a10a53baa4ac1cb19098345c225cb4f0e546ea647454a9eb4",
+    "size_bytes":  27052506,
+    "published_at":  "2026-08-01T17:22:42.2152856Z",
+    "notes":  "Refines the Counterfire icon with a simple downward-looking helmeted observer centered inside the original four-part targeting ring. The inner trajectory arrow and range-tick spokes have been removed for a cleaner silhouette at Windows icon sizes."
 }

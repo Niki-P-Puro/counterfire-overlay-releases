@@ -1,6 +1,6 @@
-## Counterfire 3.3.4
+## Counterfire 3.4.0
 
-Minimap panning now uses a bounded preprocessed render cache and fast drag-only resampling, then restores full Lanczos quality when released. Sustained local benchmarks measured about 61 FPS on cached maps and 58 FPS with a 4096 x 4096 source.
+Marker actions are now contextual: right-click a marker to Edit, Move, Mark fired now, or Delete. Move arms only that marker, requires a click-hold drag on its icon, and always ends on release. Every artillery marker shows a live AGE counter from creation. The Track command grid and hotkeys no longer duplicate Edit, Move, Compass, firing timestamp, or panel arrangement actions; panel arrangement remains under Display.
 
 Counterfire is an external manual-input tool. It does not access Broken Arrow
 files, process memory, network traffic, or screen pixels.

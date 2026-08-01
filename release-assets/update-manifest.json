@@ -1,10 +1,10 @@
 {
     "schema":  1,
-    "version":  "3.3.4",
+    "version":  "3.4.0",
     "server_url":  "https://nps-server-1.tailcedb0f.ts.net",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-    "sha256":  "222f413b435a56ed51a3e0f96e655454e70d601b43f8ee609988ae5ec6a0b8ea",
-    "size_bytes":  26498940,
-    "published_at":  "2026-08-01T16:29:50.4597483Z",
-    "notes":  "Minimap panning now uses a bounded preprocessed render cache and fast drag-only resampling, then restores full Lanczos quality when released. Sustained local benchmarks measured about 61 FPS on cached maps and 58 FPS with a 4096 x 4096 source."
+    "sha256":  "aaed63f35822e7e56f46c8e4b52e0834e8505bf739d42ff115ff1312b253f35c",
+    "size_bytes":  26499483,
+    "published_at":  "2026-08-01T16:45:41.6181760Z",
+    "notes":  "Marker actions are now contextual: right-click a marker to Edit, Move, Mark fired now, or Delete. Move arms only that marker, requires a click-hold drag on its icon, and always ends on release. Every artillery marker shows a live AGE counter from creation. The Track command grid and hotkeys no longer duplicate Edit, Move, Compass, firing timestamp, or panel arrangement actions; panel arrangement remains under Display."
 }

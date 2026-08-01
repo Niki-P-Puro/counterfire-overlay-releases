@@ -1,102 +1,141 @@
 <p align="center">
-  <img src="docs/counterfire-icon.png" width="128" alt="Counterfire icon">
+  <img src="docs/counterfire-icon.png" width="132" alt="Counterfire observer icon">
 </p>
 
 <h1 align="center">Counterfire</h1>
 
 <p align="center">
-  A focused, external artillery coordination overlay for <em>Broken Arrow</em>.
+  Manual artillery observation, timing, and team coordination for <em>Broken Arrow</em>.
 </p>
 
 <p align="center">
-  <a href="https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe"><strong>Download the latest installer</strong></a>
-  &nbsp;|&nbsp;
-  <a href="https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest">Release notes</a>
+  <a href="https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe"><strong>Download for Windows</strong></a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest">Latest release</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://github.com/Niki-P-Puro/counterfire-overlay-releases/issues/new?template=bug-report.yml">Report a problem</a>
 </p>
 
-> **Early test build:** Counterfire is not yet code-signed. Windows SmartScreen may
-> show an unrecognized-app warning while the project works toward trusted signing.
-> Download releases only from this repository.
+<p align="center">
+  <img alt="Windows 10 and 11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-1877C9?style=flat-square">
+  <img alt="Current release" src="https://img.shields.io/github/v/release/Niki-P-Puro/counterfire-overlay-releases?display_name=tag&style=flat-square">
+  <img alt="Invite-only multiplayer" src="https://img.shields.io/badge/multiplayer-invite--only-C62828?style=flat-square">
+</p>
 
-## What Counterfire Does
+> [!IMPORTANT]
+> Counterfire is currently an **early test build**. It is not Authenticode-signed,
+> so Windows SmartScreen may show an unrecognized-app warning. Download it only
+> from this repository and never install a build sent through chat or file sharing.
 
-Counterfire helps a team record and share manually observed artillery activity
-without reading information from the game. It supports:
+## At A Glance
 
-- movable enemy-fire markers with automatic time-since-created counters
-- right-click marker editing, one-drag movement, fire-time reset, and deletion
-- bearing, triangulation, distance-ring, and map measurement tools
-- zoomable and pannable minimaps with multiple map modes
-- artillery identification, reload references, and tap-tempo comparison
-- configurable numpad hotkeys and click-through overlay behavior
-- movable UI surfaces for multi-monitor layouts
-- private, invitation-only lobbies for up to five participants
-- per-user marker ownership, host controls, reconnection, and live synchronization
+Counterfire is a separate, manual-input overlay. Mark an observed firing position,
+track how long it has been quiet, compare firing tempo, and share the picture with
+an invited team. Solo mode is always the default.
 
-Solo mode is the default. Multiplayer is activated only when you create or join
-a lobby.
+| Observe | Calculate | Coordinate |
+| --- | --- | --- |
+| Movable fire markers | Bearings and triangulation | Private invitation codes |
+| Automatic age timers | Distance rings and measurement | Per-user marker ownership |
+| Artillery and tempo reference | Zoomable multi-mode maps | Live team synchronization |
 
-## Quick Start
+Other controls include configurable numpad hotkeys, click-through overlay mode,
+right-click marker and line actions, and independently movable UI surfaces for
+multi-monitor layouts.
 
-1. Download and run `CounterfireBAINSTALLER.exe` from the link above.
-2. Open Counterfire and select the correct Broken Arrow map.
-3. Use Solo mode for local-only markers, or open the **Lobby** tab.
-4. Select **Open multiplayer** to create a six-character invitation code.
-5. Share that code only with your team. There is no public room browser.
+## Start Using It
 
-Counterfire Online currently uses a private Tailscale network. Testers must be
-authorized on that network before the lobby indicator can turn green.
+1. Download `CounterfireBAINSTALLER.exe` from **Download for Windows** above.
+2. Install and open Counterfire, then choose the current map.
+3. Place markers locally in **Solo** mode.
+4. To coordinate, open **Lobby** and select **Open multiplayer**.
+5. Share the generated six-character code only with the people joining your room.
+
+There is no public lobby browser. Multiplayer rooms are isolated, invitation-only,
+and limited to five participants. A tester may need authorization for the private
+Counterfire network before the four-bar network indicator can turn green.
 
 ## Network Indicator
 
-The four vertical bars summarize multiplayer connectivity:
+The small four-bar indicator is always visible but inactive in Solo mode.
 
 | State | Meaning |
 | --- | --- |
 | Gray | Solo mode; networking is idle |
 | Red | Counterfire Online cannot be reached |
-| Yellow | Connected with delay or synchronization trouble |
+| Yellow | Connected, but synchronization is delayed |
 | Green | Connected and synchronized |
 
-## Updates
+## Maps And Overlay Controls
 
-Counterfire checks this repository at startup and during normal exit. An update
-is installed only after the downloaded installer matches the exact byte size and
-SHA-256 checksum in the published manifest. Network failure never prevents the
-application from closing.
+- Drag the map by holding its header; pan and zoom while the pointer is over the map.
+- Right-click markers and lines for their available edit, move, reset, or delete actions.
+- Drag a marker after choosing **Move** and release it to finish placement.
+- Move and scale major Counterfire surfaces independently on each display.
+- Interactive Counterfire controls capture input; click-through mode applies outside them.
 
-If an older in-app update reports a missing `python313.dll`, download and run the
-latest full installer from this page. Your Counterfire preferences are retained.
+Map imagery and scale information are reference aids. Camera perspective and manual
+placement can introduce error, so calculations should be treated as estimates.
+
+## Updates And Verification
+
+Counterfire checks for updates at startup and during normal exit. Before installation,
+the client verifies an Ed25519-signed release manifest plus the installer's exact size
+and SHA-256 hash. A failed update automatically attempts to restore the prior executable.
+
+To verify a manually downloaded installer in PowerShell:
+
+```powershell
+Get-FileHash .\CounterfireBAINSTALLER.exe -Algorithm SHA256
+```
+
+Compare the result with `sha256` in the
+[published update manifest](https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/update-manifest.json).
+The filename, byte size, and hash must all match.
+
+If an older in-app update reports a missing `python313.dll`, close Counterfire and
+install the latest full release from this page. Existing preferences are retained.
 
 ## Privacy And Game Safety
 
-Counterfire is an external, manual-input tool. It does **not** read or modify:
+Counterfire does **not** read or modify:
 
-- Broken Arrow installation or save files
+- Broken Arrow installation files or save data
 - game process memory
 - game network traffic
-- screen pixels or gameplay video
+- screen pixels, screenshots, or gameplay video
 
-The Windows client stores local preferences and its stable client key locally.
-Multiplayer transmits only the coordination data needed for identity and the joined
-lobby, such as display name, user identifier, previous names, markers, bearings,
-view state, and synchronization status. Persistent multiplayer identity records
-remain on the Counterfire server. Rooms are isolated by invitation code and
-session, and participants control their own markers.
+The Windows client stores preferences and a protected resume credential locally.
+Multiplayer sends only the data required for identity and the room you joined,
+including display name, stable user identifier, name history, markers, bearings,
+view state, and synchronization status. Persistent multiplayer records remain on
+the private Counterfire backend. Participants control their own markers; room hosts
+receive only the moderation controls required to manage their room.
 
-Counterfire is an independent community project and is not affiliated with or
-endorsed by Steel Balalaika, Slitherine, or the publishers of Broken Arrow.
+Never publish lobby codes, access tokens, server addresses, logs containing personal
+information, or private network credentials. Send security concerns through the
+process in [SECURITY.md](SECURITY.md), not a public issue.
 
 ## Troubleshooting
 
-- **SmartScreen appears:** confirm the download came from this repository, select
-  **More info**, verify the filename, and choose **Run anyway** only if you trust it.
-- **Network bars stay red:** confirm Tailscale is connected and your device has
-  been authorized for the Counterfire network.
-- **A control is inaccessible:** resize the panel or move that Counterfire surface
-  to another display; each major surface keeps its own position and scale.
-- **An update fails:** close Counterfire and run the latest full installer directly.
+| Problem | What to do |
+| --- | --- |
+| SmartScreen appears | Confirm this repository is the source, select **More info**, verify the filename, and proceed only if you trust the download. |
+| Network bars remain red | Confirm your internet connection and private Counterfire network authorization. Solo mode continues to work offline. |
+| A control is inaccessible | Resize or move that Counterfire surface; each major surface retains its own scale and display position. |
+| An update fails | Close Counterfire and run the latest full installer directly. |
+| A marker or line is off-screen | Reopen its panel or reset that surface's layout, then reposition it. |
 
-For reproducible problems, open a GitHub issue with the Counterfire version,
-Windows version, the action that failed, and the exact error text. Never post lobby
-codes, access tokens, or private server credentials.
+For reproducible bugs, use the
+[bug report form](https://github.com/Niki-P-Puro/counterfire-overlay-releases/issues/new?template=bug-report.yml)
+and include the Counterfire version, Windows version, exact error, and reproduction
+steps. Remove private information before submitting.
+
+## Project Status
+
+This repository is the official **Windows release channel** for Counterfire. It
+contains the public installer, update manifest, release notes, and documentation.
+It does not distribute the private backend, Codex bridge, credentials, or stress tools.
+
+Counterfire is an independent community project and is not affiliated with or
+endorsed by Steel Balalaika, Slitherine, or the publishers of Broken Arrow.

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/Niki-P-Puro/counterfire-overlay-releases/security/advisories/new
+    about: Report security issues privately; do not place credentials or user data in a public issue.

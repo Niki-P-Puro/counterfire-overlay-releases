@@ -28,6 +28,12 @@ jobs:
           test "$(jq -r '.version' "$manifest")" = "$version"
           test "$(jq -r '.size_bytes' "$manifest")" = "$(stat -c %s "$installer")"
           test "$(jq -r '.sha256' "$manifest")" = "$(sha256sum "$installer" | cut -d' ' -f1)"
+          test "$(jq -r '.signature_algorithm' "$manifest")" = "ed25519"
+          printf '%s' "$(jq -cS 'del(.signature)' "$manifest")" > manifest.canonical.json
+          jq -r '.signature' "$manifest" | base64 --decode > manifest.signature
+          openssl pkeyutl -verify -pubin \
+            -inkey .github/update-signing-public-key.pem \
+            -rawin -in manifest.canonical.json -sigfile manifest.signature
 
       - name: Create GitHub release
         env:

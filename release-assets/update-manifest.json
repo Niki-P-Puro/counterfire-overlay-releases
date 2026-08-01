@@ -1,9 +1,9 @@
 {
     "schema":  1,
-    "version":  "3.2.0",
+    "version":  "3.2.1",
     "installer_url":  "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-    "sha256":  "2fd93fc0c28d947f5093ed839c3b78433728f0371651e2a5bb360aadd75a5509",
-    "size_bytes":  26473401,
-    "published_at":  "2026-08-01T03:20:03.5433569Z",
-    "notes":  "Renamed CounterfireBA application branding and installer, added server-authoritative identity persistence and complete name history, hardened durable bridge storage, and improved multiplayer reliability for the Counterfire 3.2 backend."
+    "sha256":  "bbf1dc08968c200154a840bc4f03bd0d5087b094e84695ce4851bf6c9babc6b8",
+    "size_bytes":  26475726,
+    "published_at":  "2026-08-01T03:42:50.8393712Z",
+    "notes":  "Adds a calibrated drag-to-size range ring tool. Rings synchronize in multiplayer, retain creator ownership, can be moved and edited, respect the range-ring visibility setting, and support an optional user-assigned hotkey."
 }

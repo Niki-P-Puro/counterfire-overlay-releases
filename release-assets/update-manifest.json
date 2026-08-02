@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "version": "3.4.10",
+  "version": "3.4.11",
   "server_url": "https://nps-server-1.tailcedb0f.ts.net",
   "installer_url": "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-  "sha256": "7a054074e3cd8d9bcc78509d2320bdc8c6f0f24ba3fc651af55ab272b5646e44",
-  "size_bytes": 43719147,
-  "published_at": "2026-08-02T22:59:57.8597576Z",
-  "notes": "Added Discord Rich Presence integration, monitor display selection, and layout scaling fixes.",
+  "sha256": "9d9630e04fcfe2636b0a3aeaf4eba4f2826cb78be2c50e05a39533a110040824",
+  "size_bytes": 43725501,
+  "published_at": "2026-08-02T23:18:54.4105043Z",
+  "notes": "Added high-tech C2 radar reticles, compass ticks, unit target brackets, removed delete confirmations, fixed context menus and scaling.",
   "signature_algorithm": "ed25519",
-  "signature": "XK7ODi6z6l0Pxy0GOtD9lBmntvyQf5W42I1kaKjL+KvLx/hJ9r96f9BGgxz0XcEwi3mGBnvOgsTGWA0zx8Y2BA=="
+  "signature": "qp3poXfBiPovuCU36fssx9+RIkANUAu7YaYmZ6bGASKmEhQddh6bPbqPAjxtZrDWucodEeqDg588aIiRSLf0Dg=="
 }

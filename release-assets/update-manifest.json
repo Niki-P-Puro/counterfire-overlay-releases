@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "version": "3.4.12",
+  "version": "3.4.13",
   "server_url": "https://nps-server-1.tailcedb0f.ts.net",
   "installer_url": "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-  "sha256": "c25fbc819e9fd8e6a50e9e2efe1965cbe3c94170fb2619bf56faeb2829b1d9b5",
-  "size_bytes": 43723175,
-  "published_at": "2026-08-02T23:23:55.4304028Z",
-  "notes": "Added 1-click battery header pills, quick help legend bar, high-tech C2 reticles, and usability fixes.",
+  "sha256": "ebf6adf13041cd00353d0146cfcf37fadb04e62680946c218e619d3db3ae8a09",
+  "size_bytes": 43725993,
+  "published_at": "2026-08-02T23:28:52.1989975Z",
+  "notes": "Fixed header battery pill layout overlap, added 2-row minimap header, 1-click battery group switching, and quick help legend bar.",
   "signature_algorithm": "ed25519",
-  "signature": "ucOG+m9SO/JSz2YoRq9zATQDTDzN2A0zdQWMJt5Af9FPxor3+OM8rH+OntDqI4dcycyOS6OUwqzhjckQIRZZCQ=="
+  "signature": "Lizh2jEaAc15C73DGz6ZneqlqBuA6WuKCuQt9isdtzU0uSvzobfj0uKn5cKU10zwY4YFPoAeLiYZu7gI9yw1Ag=="
 }

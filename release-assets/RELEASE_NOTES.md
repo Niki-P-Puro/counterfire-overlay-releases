@@ -1,6 +1,6 @@
-## Counterfire 3.4.12
+## Counterfire 3.4.13
 
-Added 1-click battery header pills, quick help legend bar, high-tech C2 reticles, and usability fixes.
+Fixed header battery pill layout overlap, added 2-row minimap header, 1-click battery group switching, and quick help legend bar.
 
 Counterfire is an external manual-input tool. It does not access Broken Arrow
 files, process memory, network traffic, or screen pixels.

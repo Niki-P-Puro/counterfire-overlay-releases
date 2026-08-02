@@ -1,6 +1,6 @@
-## Counterfire 3.4.11
+## Counterfire 3.4.12
 
-Added high-tech C2 radar reticles, compass ticks, unit target brackets, removed delete confirmations, fixed context menus and scaling.
+Added 1-click battery header pills, quick help legend bar, high-tech C2 reticles, and usability fixes.
 
 Counterfire is an external manual-input tool. It does not access Broken Arrow
 files, process memory, network traffic, or screen pixels.

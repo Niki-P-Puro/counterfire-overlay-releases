@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "version": "3.4.5",
+  "version": "3.4.6",
   "server_url": "https://nps-server-1.tailcedb0f.ts.net",
   "installer_url": "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-  "sha256": "aada2b811bdfdb0f71d1d81c1174ae51cecc66d4620896dd032a720492791d8b",
-  "size_bytes": 30653029,
-  "published_at": "2026-08-01T20:49:55.7811184Z",
-  "notes": "Redesigned bearing lines with blue origins, red endpoints, uncertainty-defined side rails, green arc caps, movable bearing handles, overlap-aware right-click actions, ring-circumference selection, and reliable edit-dialog deletion.",
+  "sha256": "361c5efb48106d6fb746f69b173d9e75b3a9d303cdf26c05a03dd0f43f3087a6",
+  "size_bytes": 43692561,
+  "published_at": "2026-08-02T22:26:46.1152886Z",
+  "notes": "Fixed minimap position surviving restart.",
   "signature_algorithm": "ed25519",
-  "signature": "nIuSz8qwqGR2x6ZzmTnnxGkC6zJvThuUrrIR3xySELPc7cm/4s4caieiJmRnOlTmeO4QQU0YPOWdebqiriUMBA=="
+  "signature": "x4DhSEvJYBT8/na8S/i3OFPoPAZIleaIm8rPihqWTzHXePa4GRXQan6gIOHemGOsnmOt65ZyuFRVv5wysQf6Bg=="
 }

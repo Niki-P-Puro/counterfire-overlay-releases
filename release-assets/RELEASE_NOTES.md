@@ -1,6 +1,6 @@
-## Counterfire 3.4.8
+## Counterfire 3.4.9
 
-Added Discord Rich Presence integration and version 3.4.8 bump.
+Added Discord Rich Presence integration and version 3.4.9 bump.
 
 Counterfire is an external manual-input tool. It does not access Broken Arrow
 files, process memory, network traffic, or screen pixels.

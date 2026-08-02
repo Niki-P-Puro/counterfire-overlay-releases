@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "version": "3.4.13",
+  "version": "3.4.15",
   "server_url": "https://nps-server-1.tailcedb0f.ts.net",
   "installer_url": "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-  "sha256": "ebf6adf13041cd00353d0146cfcf37fadb04e62680946c218e619d3db3ae8a09",
-  "size_bytes": 43725993,
-  "published_at": "2026-08-02T23:28:52.1989975Z",
-  "notes": "Fixed header battery pill layout overlap, added 2-row minimap header, 1-click battery group switching, and quick help legend bar.",
+  "sha256": "d35ac97729d1af039a28485caff50003c3fae58527c8d8a7e4730a04a169d290",
+  "size_bytes": 43726941,
+  "published_at": "2026-08-02T23:47:09.5393236Z",
+  "notes": "Added right-click Map Style submenu, high-res custom map importer command, and map resolution/size metrics display.",
   "signature_algorithm": "ed25519",
-  "signature": "Lizh2jEaAc15C73DGz6ZneqlqBuA6WuKCuQt9isdtzU0uSvzobfj0uKn5cKU10zwY4YFPoAeLiYZu7gI9yw1Ag=="
+  "signature": "JY2v7hrnsCbaq4a2MlSGp7ipQOLmVJsoHtWIU/maXhT0r4ZkLYW39GK3b5RSiGUpbOpnKzuT9uPnt8vA29gfAg=="
 }

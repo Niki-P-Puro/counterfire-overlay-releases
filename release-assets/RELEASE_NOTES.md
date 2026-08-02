@@ -1,6 +1,6 @@
-## Counterfire 3.4.13
+## Counterfire 3.4.15
 
-Fixed header battery pill layout overlap, added 2-row minimap header, 1-click battery group switching, and quick help legend bar.
+Added right-click Map Style submenu, high-res custom map importer command, and map resolution/size metrics display.
 
 Counterfire is an external manual-input tool. It does not access Broken Arrow
 files, process memory, network traffic, or screen pixels.

@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "version": "3.4.9",
+  "version": "3.4.10",
   "server_url": "https://nps-server-1.tailcedb0f.ts.net",
   "installer_url": "https://github.com/Niki-P-Puro/counterfire-overlay-releases/releases/latest/download/CounterfireBAINSTALLER.exe",
-  "sha256": "b9aef177c7db22c68ed636e3f4f7f8db6dcc123c9ac46e5f6e0eb0e770786790",
-  "size_bytes": 43718870,
-  "published_at": "2026-08-02T22:44:46.1670673Z",
-  "notes": "Added Discord Rich Presence integration and version 3.4.9 bump.",
+  "sha256": "7a054074e3cd8d9bcc78509d2320bdc8c6f0f24ba3fc651af55ab272b5646e44",
+  "size_bytes": 43719147,
+  "published_at": "2026-08-02T22:59:57.8597576Z",
+  "notes": "Added Discord Rich Presence integration, monitor display selection, and layout scaling fixes.",
   "signature_algorithm": "ed25519",
-  "signature": "NkotMy0qXUnysCnPC6IDcL9hlscYjjr8mFzWxNJGnmaN3fFYx0OBqb8H6Ki4bwWs7zC6DifKDnc/4NkjV4qMBA=="
+  "signature": "XK7ODi6z6l0Pxy0GOtD9lBmntvyQf5W42I1kaKjL+KvLx/hJ9r96f9BGgxz0XcEwi3mGBnvOgsTGWA0zx8Y2BA=="
 }
